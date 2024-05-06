@@ -35,17 +35,27 @@ const IndexPage = () => {
       <MarginLR>
         <Section>
           <p className="text-8xl">
-            A collective for tackling the climate crisis.
+            A collective for tackling global challenges.
           </p>
         </Section>
       </MarginLR>
       <Section classes="bg-orange-200" styles={{ minHeight: "200px" }}>
         <MarginLR>
-          <p className="text-3xl mb-4">
-            We bring together cohorts of engineers, scientists, and designers to
-            build solutions to climate change.
+          <p className="text-3xl mb-8">
+            Big problems can't be solved by any single person. We bring together
+            engineers, scientists, and designers to build solutions to global
+            challenges, starting with climate change.
           </p>
-          <p className="text-3xl mb-4">Through our one-year program,</p>
+          <p className="text-3xl mb-8">
+            Our goal is simple: deeply understand the problem space and broadly
+            explore the solution space, then form teams to execute the most
+            promising strategies.
+          </p>
+          <p className="text-3xl mb-8">
+            By convening builders across a range of disciplines, we can
+            capitalize on a breadth of technical capabilities and minimize their
+            individual limitations.
+          </p>
         </MarginLR>
       </Section>
       {/* <Section styles={{ minHeight: "200px" }}>
