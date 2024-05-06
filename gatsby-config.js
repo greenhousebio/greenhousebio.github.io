@@ -2,9 +2,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
-    title: `greenhousebio.github.io`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `The Greenhouse`,
+    siteUrl: `https://greenhousebio.github.io/`,
   },
   plugins: [
     "gatsby-plugin-sass",
